@@ -57,18 +57,18 @@ export default function Body2(props) {
 
 
 
-
-        <div class="card" style={{width: "38rem", height:"27rem", position:"relative", left:'12.5vw', top:"2rem"}}>
-  <img src={cardImg} class="card-img-top" alt="..."/>
-  <div class="card-body">
+<div className="card-container">       
+ <div className="card" style={{width: "38rem", height:"27rem", position:"relative", left:'12.5vw', top:"2rem"}}>
+  <img src={cardImg} className="card-img-top" alt="..."/>
+  <div className="card-body">
     <img src={article} style={{marginBottom:"1rem", width:"70px"}}></img>
     <img src={dots3} className="dbutton point" style={{width:"35px", position:"relative", left:"28rem", top:"1.95rem"}}></img>
 
 
 
-    <h5 class="card-title">What if famous brands had regular fonts? Meet<br></br> RegulaBrands!</h5>
-    <p class="card-text" style={{position:"relative", top:".5rem"}}>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
-    {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+    <h5 className="card-title">What if famous brands had regular fonts? Meet<br></br> RegulaBrands!</h5>
+    <p className="card-text" style={{position:"relative", top:".5rem"}}>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
 <img src={profile1} className="point" style={{width:"40px", position:"relative", top:'1.6rem'}}></img><p style={{position:"relative", left:"3.5rem", top:"-0.5rem", fontWeight:"600"}}>Sarthak Kamra</p>
     
     <img src={views} className="point" style={{width:"95px", position:"relative", top:"-3rem", left:'23rem'}}></img>
@@ -80,17 +80,17 @@ export default function Body2(props) {
 
 
 
-        <div class="card"  style={{width: "38rem", height:"27rem", position:"relative", left:'12.5vw', top:"3rem", marginBottom:"2rem"}}>
-  <img src={cardImg2} class="card-img-top" alt="..."/>
-  <div class="card-body">
+        <div className="card"  style={{width: "38rem", height:"27rem", position:"relative", left:'12.5vw', top:"3rem", marginBottom:"2rem"}}>
+  <img src={cardImg2} className="card-img-top" alt="..."/>
+  <div className="card-body">
     <img src={edu} style={{marginBottom:"1rem", width:"90px"}}></img>
     <img src={dots3} className="dbutton point" style={{width:"35px", position:"relative", left:"28rem", top:"1.95rem"}}></img>
 
 
 
-    <h5 class="card-title">Tax Benefits for Investment under National Pension<br></br> Scheme launched by Government</h5>
-    <p class="card-text" style={{position:"relative", top:".5rem"}}>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
-    {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+    <h5 className="card-title">Tax Benefits for Investment under National Pension<br></br> Scheme launched by Government</h5>
+    <p className="card-text" style={{position:"relative", top:".5rem"}}>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
 <img src={profile2} className="point" style={{width:"40px", position:"relative", top:'1.6rem'}}></img><p style={{position:"relative", left:"3.5rem", top:"-0.5rem", fontWeight:"600"}}>Sarah West</p>
     
     <img src={views} className="point" style={{width:"95px", position:"relative", top:"-3rem", left:'23rem'}}></img>
@@ -105,19 +105,19 @@ export default function Body2(props) {
 
 
 
-<div class="card"  style={{width: "38rem", height:"30rem", position:"relative", left:'12.5vw', top:"3rem", marginBottom:"2rem"}}>
-  <img src={cardImg3} class="card-img-top" alt="..."/>
-  <div class="card-body">
+<div className="card"  style={{width: "38rem", height:"30rem", position:"relative", left:'12.5vw', top:"3rem", marginBottom:"2rem"}}>
+  <img src={cardImg3} className="card-img-top" alt="..."/>
+  <div className="card-body">
     <img src={meetup} style={{marginBottom:"1rem", width:"90px"}}></img>
     <img src={dots3} className="dbutton point" style={{width:"35px", position:"relative", left:"28rem", top:"1.95rem"}}></img>
 
 
 
-    <h5 class="card-title">Tax Benefits for Investment under National Pension<br></br> Scheme launched by Government</h5>
-    <p class="card-text" style={{position:"relative", top:".5rem"}}><img style={{width:"300px"}} src={time}></img></p>
+    <h5 className="card-title">Tax Benefits for Investment under National Pension<br></br> Scheme launched by Government</h5>
+    <p className="card-text" style={{position:"relative", top:".5rem"}}><img style={{width:"300px"}} src={time}></img></p>
 
     <img src={btnGroup} className="point" style={{width:"570px", marginTop:"1rem"}}></img>
-    {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
 <img src={profile3} className="point" style={{width:"130px", position:"relative", top:'1.6rem'}}></img>
     
     <img src={views} className="point" style={{width:"95px", position:"relative", top:"1.5rem", left:'15rem'}}></img>
@@ -130,9 +130,9 @@ export default function Body2(props) {
 
 
 
-<div class="card"  style={{width: "38rem", height:"16rem", position:"relative", left:'12.5vw', top:"3rem"}}>
-  {/* <img src={cardImg2} class="card-img-top" alt="..."/> */}
-  <div class="card-body">
+<div className="card"  style={{width: "38rem", height:"16rem", position:"relative", left:'12.5vw', top:"3rem"}}>
+  {/* <img src={cardImg2} className="card-img-top" alt="..."/> */}
+  <div className="card-body">
     <img src={job} style={{marginBottom:"1rem", width:"60px"}}></img><br></br>
     <img src={dots3} className="dbutton point" style={{width:"35px", position:"relative", left:"28rem", top:"1.95rem"}}></img>
 
@@ -143,12 +143,13 @@ export default function Body2(props) {
 
 
 <img src={buttonx4} className="point" style={{width:"570px"}}></img>
-       {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+       {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
 <img src={profile4} style={{width:"40px", position:"relative", top:'1.6rem'}}></img><p style={{position:"relative", left:"3.5rem", top:"-0.5rem", fontWeight:"600"}}>Joseph Gray</p>
     
     <img src={views} style={{width:"95px", position:"relative", top:"-3rem", left:'23rem'}}></img>
     <img src={share} style={{width:'50px', position:"relative", left:"26.5rem", top:"-3rem"}}></img>
   </div>
+</div>
 </div>
 
         </>

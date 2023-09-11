@@ -140,10 +140,18 @@ display: none;
   }
 
   .card{
-    transform: translate(-3rem,-3rem);
-    width: 100px;
+    transform: translate(-2rem,-3rem);
+    width: 100vw;
   }
 }
+/* @media (max-width:500px){
+  .card{
+  
+    width: 100% !important;
+    max-width: none;
+    left: 0;
+  }
+} */
 
 .recommended-groups {
   width: 300px;

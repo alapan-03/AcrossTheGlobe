@@ -7,7 +7,7 @@ import profile from "./Group 64.png"
 export default function Navbar(props) {
     return(
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style={{minWidth:"42rem"}}>
   <div class="container-fluid">
     <a class="navbar-brand" href="#" style={{position:"relative", left:"3vw"}}><img style={{width:"100px"}} src={icon1}></img></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
